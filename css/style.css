@@ -1,0 +1,108 @@
+body {
+    font-family: Roboto;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.red {
+    color: rgb(190, 11, 11);
+}
+
+.section-1 {
+    display: flex;
+}
+
+.half-div {
+    width: 45%;
+    padding-left: 100px;
+}
+
+.half-div img {
+    width: 80%;
+}
+
+.half-div p {
+    margin-bottom: 30px;
+}
+
+.section-1 a {
+    margin-top: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.section-1 {
+    background-image: url(/Img/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.section2 {
+    display: flex;
+    background-image: url(/Img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.section2 a {
+    margin-top: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.experiance {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section3 {
+    display: flex
+}
+
+.setion3main {
+    background-image: url(/Img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.orange {
+    color: orange;
+}
+
+.box {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    width: 40%;
+    margin: 40px;
+}
+
+#full-stack {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightsalmon, red);
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer p {
+    text-align: center;
+}
